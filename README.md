@@ -1,8 +1,8 @@
 ## Multiple Object tracking in openCV  
 
 ### Prerequisites  
-A lot of modules used in the code are part of openCV's contrib package (link [here](https://github.com/opencv/opencv_contrib))  
-Follow the steps for installation [here](https://pypi.org/project/opencv-contrib-python/)  
+* A lot of modules used in the code are part of openCV's contrib package (link [here](https://github.com/opencv/opencv_contrib))  
+* Follow the steps for installation [here](https://pypi.org/project/opencv-contrib-python/)  
 **Note**: The conrib package has both main & contrib modules
 
 ### Executing the code  
