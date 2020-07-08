@@ -1,9 +1,11 @@
 ## Multiple Object tracking in openCV  
 
 ### Prerequisites  
-A lot of modules used in the code are part of openCV's contrib package (link [here](https://github.com/opencv/opencv_contrib))  
-Follow the steps for installation [here](https://pypi.org/project/opencv-contrib-python/)  
-**Note**: The conrib package has both main & contrib modules
+* A lot of modules used in the code are part of openCV's contrib package (link [here](https://github.com/opencv/opencv_contrib))  
+* Follow the steps for installation [here](https://pypi.org/project/opencv-contrib-python/)  
+    * Make sure to first uninstall cv2 ``` pip uninstall cv2 ```  
+    * Then install contrib package ``` pip install opencv-contrib-python ```  
+* **Note:** The contrib package has both main & contrib modules
 
 ### Executing the code  
 1. Make sure that you have the video(.mp4) and python file in the same directory.
@@ -15,3 +17,10 @@ Follow the steps for installation [here](https://pypi.org/project/opencv-contrib
 **Note**: You can cancel your selection by pressing **c**
 
 ### Demo  
+![](https://github.com/Pranjalmishra30/openCV-Practice-Project/blob/master/Data/Screenshot%20from%202020-07-08%2023-40-58.png)
+![](https://github.com/Pranjalmishra30/openCV-Practice-Project/blob/master/Data/Screenshot%20from%202020-07-08%2023-45-37.png)  
+
+### Refrences  
+* [PyimageSearch](https://www.pyimagesearch.com/start-here/)  
+* Understanding the basics of object tracking & various tracking techinques [here](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)
+* [Video source](https://twitter.com/ManUtd/status/1278378584382541826)
