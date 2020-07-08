@@ -15,3 +15,5 @@ Follow the steps for installation [here](https://pypi.org/project/opencv-contrib
 **Note**: You can cancel your selection by pressing **c**
 
 ### Demo  
+![Task 1](Data/Screenshot from 2020-07-08 23-40-58.png)  
+
