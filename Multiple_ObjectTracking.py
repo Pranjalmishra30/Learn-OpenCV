@@ -2,7 +2,7 @@ import cv2
 
 trackers = cv2.MultiTracker_create()
 
-Vs = cv2.VideoCapture('videos/Bruno_goal.mp4')
+Vs = cv2.VideoCapture('Bruno_goal.mp4')
 
 while True:
     ret,frame = Vs.read()
