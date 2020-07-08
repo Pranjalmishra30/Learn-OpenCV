@@ -15,5 +15,9 @@ Follow the steps for installation [here](https://pypi.org/project/opencv-contrib
 **Note**: You can cancel your selection by pressing **c**
 
 ### Demo  
-![Task 1](Data/Screenshot from 2020-07-08 23-40-58.png)  
+![](https://github.com/Pranjalmishra30/openCV-Practice-Project/blob/master/Data/Screenshot%20from%202020-07-08%2023-40-58.png)
+![](https://github.com/Pranjalmishra30/openCV-Practice-Project/blob/master/Data/Screenshot%20from%202020-07-08%2023-45-37.png)  
 
+### Refrences  
+* [PyimageSearch](https://www.pyimagesearch.com/start-here/)  
+* [Video source](https://twitter.com/ManUtd/status/1278378584382541826)
