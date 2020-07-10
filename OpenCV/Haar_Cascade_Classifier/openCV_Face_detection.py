@@ -34,7 +34,8 @@ while True:
 
     #Saving screenshots for collecting images for dataset
     elif var == ord('p'):
-        cv2.imwrite(os.path.join(path,'face{}{}.png'.format('Pranjal',i)),img)
+        cv2.imwrite('Face_recognised.jpg',img)
+        #cv2.imwrite(os.path.join(path,'face{}{}.png'.format('Pranjal',i)),img)
         i=i+1
     elif var == ord('d'):
         cv2.imwrite(os.path.join(path,'face{}{}.png'.format('Diwij',i)),img)

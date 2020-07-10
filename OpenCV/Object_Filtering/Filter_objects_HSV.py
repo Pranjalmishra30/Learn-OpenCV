@@ -26,7 +26,7 @@ while True:
     #low_blue=np.array([90,80,50]) #just making an array
     #high_blue=np.array([120,255,255])
 
-#For yellow cap
+#For yellow bottle cap
     low_blue=np.array([20,100,100]) #just making an array
     high_blue=np.array([30,255,255])
 
