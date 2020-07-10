@@ -1,8 +1,10 @@
-# Repo for openCV work  
-1. All the openCV work/progress is in this repository  
-2. Codes in the OpenCV folder (add link later) have been tested
-3. Testing directory has the codes that need to be worked on or are beeen worked on.
-4. Try to put good/relevant projects in the projects directory  
-5. The geneal protocol is :  
-   * Practice codes and push to this rep.  
-   * Test the mentioned codes and then push to the main coding branch.  
+# openCV Repository  
+
+## Directories  
+1. [OpenCV](https://github.com/Pranjalmishra30/openCV-Rep/tree/master/OpenCV) has all the main openCV codes. All the codes have been tested and are working.  
+2. [Projects](https://github.com/Pranjalmishra30/openCV-Rep/tree/master/Projects) contains projects that i have completed in openCV. All of the projects are         accompanied with their own README file.
+3. [Testing](https://github.com/Pranjalmishra30/openCV-Rep/tree/master/Testing) contains the projects and topics that I am currently working on. The codes from here will be shifted to the OpenCV directory after they have been tested.
+
+## Geneal protocol:  
+   * This rep. is for testing and trying out new concepts.  
+   * After the codes are tested , they can be pushed to the main Coding branch.
