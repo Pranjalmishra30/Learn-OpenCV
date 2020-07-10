@@ -1,15 +1,20 @@
 import cv2
-import numpy as np
+import matplotlib.pyplot as plt
+
 img=cv2.imread('Images/Donuts.jpeg')
+img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB) # Matplotlib uses RGB scheme
 
 blur1=cv2.GaussianBlur(img,(5,5),0) # values should be >1 and odd
-blur2=cv2.GaussianBlur(img,(7,7),0)
-blur3=cv2.GaussianBlur(img,(9,9),0)
-blur4=cv2.GaussianBlur(img,(11,11),0)
-cv2.imshow('Original',img)
-cv2.imshow('Blur Level 1',blur1)
-cv2.imshow('Blur Level 2',blur2)
-cv2.imshow('Blur Level 3',blur3)
-cv2.imshow('Blur Level 4',blur4)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+blur2=cv2.GaussianBlur(img,(9,9),0)
+blur3=cv2.GaussianBlur(img,(13,13),0)
+blur4=cv2.GaussianBlur(img,(17,17),0)
+
+titles = ['Original','Blur level 1','Blur level 2','Blur level 3','Blur level 4']
+images = [img,blur1,blur2,blur3,blur4]
+
+for i in range(5):
+    plt.subplot(2,3,i+1),plt.imshow(images[i])
+    plt.title(titles[i])
+    plt.xticks([]),plt.yticks([])
+
+plt.show()
