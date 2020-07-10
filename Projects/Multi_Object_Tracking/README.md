@@ -17,8 +17,8 @@
 **Note**: You can cancel your selection by pressing **c**
 
 ### Demo  
-![](https://github.com/Pranjalmishra30/openCV-Practice-Project/blob/master/Data/Screenshot%20from%202020-07-08%2023-40-58.png)
-![](https://github.com/Pranjalmishra30/openCV-Practice-Project/blob/master/Data/Screenshot%20from%202020-07-08%2023-45-37.png)  
+![](https://github.com/Pranjalmishra30/openCV-Rep/blob/master/Projects/Multi_Object_Tracking/Data/Screenshot%20from%202020-07-08%2023-40-58.png)
+![](https://github.com/Pranjalmishra30/openCV-Rep/blob/master/Projects/Multi_Object_Tracking/Data/Screenshot%20from%202020-07-08%2023-45-37.png)  
 
 ### Refrences  
 * [PyimageSearch](https://www.pyimagesearch.com/start-here/)  
