@@ -23,12 +23,12 @@ while True:
     HSV_frame=cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
 #For Blue Screw driver head
-    #low_blue=np.array([90,80,50]) #just making an array
-    #high_blue=np.array([120,255,255])
+    low_blue=np.array([90,80,50]) #just making an array
+    high_blue=np.array([120,255,255])
 
 #For yellow bottle cap
-    low_blue=np.array([20,100,100]) #just making an array
-    high_blue=np.array([30,255,255])
+    #low_blue=np.array([20,100,100]) #just making an array
+    #high_blue=np.array([30,255,255])
 
     mask=cv2.inRange(HSV_frame,low_blue,high_blue) #Thresholding within limits
 
