@@ -18,8 +18,8 @@ def select_roi (event,x,y,flags,param):
         cv2.imshow('frame',img_resized)
 
 
-img = cv2.imread('Man_United.jpeg')
-img_resized = cv2.resize(img,(500,500))
+img_resized = cv2.imread('Man_United.jpeg')
+img_resized = cv2.resize(img,(200,200))
 
 clone = img_resized.copy()
 cv2.namedWindow('frame')
