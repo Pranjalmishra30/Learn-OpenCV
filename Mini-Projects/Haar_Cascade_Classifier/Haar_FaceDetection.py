@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-face_cascade = cv2.CascadeClassifier('Mini-Projects/Haar_Cascade_Classifier/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('Mini-Projects/Haar_Cascade_Classifier/Data/haarcascade_frontalface_default.xml')
 #CascadeClassifier object and file contains the face features
 
 cap=cv2.VideoCapture(0)
