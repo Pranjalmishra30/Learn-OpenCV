@@ -8,5 +8,7 @@
 2. Check out [PyImageSearch](https://www.pyimagesearch.com/) for more tutorials on OpenCV.  
 3. OpenCV Deep-Learning [guide](https://github.com/Pranjalmishra30/openCV-Rep/blob/master/cv_dl_resource_guide.pdf)  
 
+[![Image](https://img.shields.io/badge/Developer-Pranjal%20Mishra-blue)](https://github.com/Pranjalmishra30)
+
 
    
