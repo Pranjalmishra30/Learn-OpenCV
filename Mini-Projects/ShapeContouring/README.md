@@ -4,7 +4,7 @@ Shape contouring can be achieved by 2 processes: **Thresholding** and **Contouri
 Thresholding allows us to filter the object and Contouring lets us outline/mark the boundary of the object  
 
 ## Result  
-![]()  
+![](https://github.com/Pranjalmishra30/openCV-Rep/blob/master/Mini-Projects/ShapeContouring/Shape_Detected.png)  
 
 ## Refrences  
 1. [Thresholding](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_thresholding/py_thresholding.html)  
