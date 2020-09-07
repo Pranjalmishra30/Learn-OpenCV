@@ -5,9 +5,10 @@ import numpy as np
 def draw_circle(event,x,y,flags,param):
     if event == cv2.EVENT_LBUTTONDBLCLK:
         cv2.circle(img,(x,y),50,(200,100,0),5)
+        print("Point Clicked: x {} y {}".format(x,y))
 
 
-img=cv2.imread('red.jpg',1)  # Making cirle on an image
+img=cv2.imread('Basics/Data/red.jpg',1)  # Making cirle on an image
 #img = np.zeros((512,512,3), np.uint8)   # Making circle on a black image
 
 cv2.namedWindow('image')

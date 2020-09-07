@@ -1,7 +1,9 @@
+# Understanding thresholding and comparing various thresholding techniques
+
 import cv2
 import matplotlib.pyplot as plt
 
-img=cv2.imread('Images/car.jpg')
+img=cv2.imread('Basics/Data/car.jpg')
 gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 gray = cv2.cvtColor(gray,cv2.COLOR_BGR2RGB) # Matplotlib uses RGB

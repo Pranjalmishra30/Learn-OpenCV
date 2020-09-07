@@ -1,7 +1,9 @@
+# Understanding Gaussian Blur and displaying various degrees of blur
+
 import cv2
 import matplotlib.pyplot as plt
 
-img=cv2.imread('Images/Donuts.jpeg')
+img=cv2.imread('Basics/Data/Donuts.jpeg')
 img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB) # Matplotlib uses RGB scheme
 
 blur1=cv2.GaussianBlur(img,(5,5),0) # values should be >1 and odd

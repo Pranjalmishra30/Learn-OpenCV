@@ -1,3 +1,4 @@
+# Drawing Shapes and text on webcam. Can also do the same on images
 import cv2
 import numpy as np
 
@@ -6,7 +7,7 @@ while(True):
     ret,frame=cap.read()
     #Remove the comment line to use Line,Text,Rectangle or Circle
 
-    #cv2.line(frame,(50,50),(400,50),(255,0,0),10)
+    # cv2.line(frame,(50,50),(300,90),(255,0,0),10)
     # Line (var of frame,1st end,2nd end,BGR value,thickness)
 
     font=cv2.FONT_HERSHEY_SIMPLEX
