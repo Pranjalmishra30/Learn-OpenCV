@@ -1,4 +1,4 @@
-# openCV Basics Repository  
+# OpenCV Basics   
 
 1. [Basics](https://github.com/Pranjalmishra30/openCV-Rep/tree/master/Basics) has beginner codes to get you started.
 2. [Mini-Projects](https://github.com/Pranjalmishra30/openCV-Rep/tree/master/Mini-Projects) contains small projects that can be completed after knowing the basics of OpenCV. All of the projects are accompanied with their own README files for better understanding.
