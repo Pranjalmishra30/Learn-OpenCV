@@ -8,10 +8,10 @@ cv2.imshow('Image',img)
 # cv2.imshow("Resized Image",resized_img)
 
 # -------------------- Changing Colour Spaces -------------
-gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-hsv  = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
-cv2.imshow("Gray-Scale",gray)
-cv2.imshow("HSV",hsv)
+# gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+# hsv  = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
+# cv2.imshow("Gray-Scale",gray)
+# cv2.imshow("HSV",hsv)
 
 
 cv2.waitKey(0) # displays image for given millisceconds. if we keep it 0 then it will be open for infinity
