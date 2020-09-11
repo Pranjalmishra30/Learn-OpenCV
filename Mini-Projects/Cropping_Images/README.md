@@ -1,11 +1,22 @@
-Image cropper
-This code allows you to crop images and save them .
-Following steps need to be folowed to crop these images - 
-1. Run the program
-2. On the image shown , drag you cursor to draw a rectangle (Select one point and click right mouse button , then drag to the end point of the rectangle while mouse is clicked)
-3. release right mouse button to confirm selection (msg in terminal)
-4. Press 'c' to crop the image
-5. A new window opens up with the cropped image
-6. Press 's' to save the image
-7. Press 'r' to reset and return to the original image
-8. Repeat as many times to crop as many images you require
+# Image Cropper  
+This code allows you to crop images and save them.  
+
+### Executing the code  
+1. Run the .py file by running the command ``` python3 crop.py``` in the terminal or cmd.  
+2. Use the **Left** mouse button to drag out a rectangular region of the image you want to crop. **Release** the button, once you are done.  
+3. The selected rectangular is shown on the image.  
+4. Press **c** to crop the image. A new window opens up.  
+  a) Press **s** to save the cropped image.  
+  b) Press **r** to reset and return to the original image.  
+5. Repeat from step 2 to crop more images.  
+
+### Demo  
+
+
+  
+  
+
+
+### Refrences  
+1. Mouse events [tutorial](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_mouse_handling/py_mouse_handling.html)  
+2. pyimagesearch [tutorial](https://www.pyimagesearch.com/2015/03/09/capturing-mouse-click-events-with-python-and-opencv/)  
