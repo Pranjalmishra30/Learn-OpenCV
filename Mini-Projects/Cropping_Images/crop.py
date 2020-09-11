@@ -1,21 +1,17 @@
 import cv2
-
 refpt = [] #List of refrence points
 
 def select_roi (event,x,y,flags,param):
     global refpt #Global refrences
 
     if event == cv2.EVENT_LBUTTONDOWN: # When the left mouse button is cliked
-        
         refpt = [(x,y)]
 
     elif event == cv2.EVENT_LBUTTONUP: # When the left mouse button is released
-        
         refpt.append((x,y)) # recording the last coordinates
         cv2.rectangle(img_main,refpt[0],refpt[1],(0,255,0),2)
         cv2.imshow("frame",img_main)
         print("Selection Successful")
-
 
 img = cv2.imread("Data/Man_United.jpeg")
 img_main = cv2.resize(img,(400,400)) #Resizing image
