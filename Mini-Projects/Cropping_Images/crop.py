@@ -36,7 +36,7 @@ while True:
     - Press q to exit the program.
     '''
 
-    if var == ord('C'): # Crop selected images
+    if var == ord('c'): # Crop selected images
         
         if len(refpt)==2:
             roi = clone2[refpt[0][1]:refpt[1][1], refpt[0][0]:refpt[1][0]] # [x1:x2 , y1:y2]
