@@ -4,7 +4,7 @@ This code allows you to crop images and save them.
 ### Executing the code  
 1. Run the .py file by running the command ``` python3 crop.py``` in the terminal or cmd.  
 2. Use the **Left** mouse button to drag out a rectangular region of the image you want to crop. **Release** the button, once you are done.  
-3. The selected rectangular is shown on the image.  
+3. The selected rectangular is shown on the image. You can press **r** to reset your selection. 
 4. Press **c** to crop the image. A new window opens up.  
   a) Press **s** to save the cropped image.  
   b) Press **r** to reset and return to the original image.  
