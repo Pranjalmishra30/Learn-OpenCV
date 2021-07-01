@@ -1,6 +1,6 @@
 ## Install OpenCV  
 OpenCV is an open source computer vision and machine learning software library.  
-**Note**: Ensure that the latest version of [python](https://www.python.org/downloads/) is installed on your system.  
+**Note**: Ensure that the latest version of [python3](https://www.python.org/downloads/) is installed on your system.  
 
 
 ## Linux  
@@ -12,9 +12,12 @@ All the commands written below should be executed in the terminal.
     ```
     ~$ sudo apt-get install python3-pip  
     ```
-
-    **Note**:  We require pip for python3 and we will be using pip3 for all other libraries. Refer [here](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/) for more info 
-
+    We require pip3 for python3 and we will be using pip3 for all other libraries. Refer [here](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/) for more info.  
+    **Note**: To check your pip3 version  
+    
+    ```
+    ~$ pip3 --version  
+    ```
 2. Installing scikit-build (required for OpenCV Package)
 
     ```
@@ -38,14 +41,25 @@ Open command prompt (on windows) or terminal (on macOS) and run the following co
     Wait for the packages to download and install.    
 
 ### Verifying your installation:  
-Run the python console in your system and import the libraries as shown below  
-    
-        ~$ python3  
-	    >>> import cv2  
+Run this python code in your terminal or IDE to make sure that the CV2 library is installed.  
+```
+import cv2
+#Simple Video capture from webcam
 
-If this runs without any error, then your installation is successful.
+cap = cv2.VideoCapture(0)
+while True:
+    # Capture frame-by-frame
+    ret, frame = cap.read()
+    cv2.imshow('frame',frame)
 
+    if cv2.waitKey(1) == ord('q'):
+        break
+
+# When everything done, release the capture
+cap.release()
+cv2.destroyAllWindows()
+```
 
 ## References  
-* Official [website](https://opencv.org/)  
-* Installation [instructions](https://pypi.org/project/opencv-python/)
+* [Official website](https://opencv.org/)  
+* [Installation instructions](https://pypi.org/project/opencv-python/)
